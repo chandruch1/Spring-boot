@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #9face6);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #1976d2;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #0d47a1;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #1976d2;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #125ea7;
+}
+
+p {
+    margin-top: 15px;
+    text-align: center;
+}
+
+a {
+    color: #1976d2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.todo-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.todo-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f4f8ff;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #d0dff7;
+}
+
+.todo-card span {
+    flex: 1;
+    color: #333;
+}
+
+.todo-card button {
+    width: auto;
+    background: #e53935;
+    padding: 8px 12px;
+    margin: 0;
+}
+
+.todo-card button:hover {
+    background: #c62828;
+}
+
+.add-todo {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.add-todo input {
+    flex: 1;
+}
+
+.add-todo button {
+    width: auto;
+    margin-top: 0;
+}
+
+#empty-message {
+    color: gray;
+    text-align: center;
+    margin-top: 10px;
+}

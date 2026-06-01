@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h2>Todo List</h2>
+
+    <div id="todo-list" class="todo-cards">
+        <p id="empty-message">
+            No Todos Found
+        </p>
+    </div>
+
+    <div class="add-todo">
+
+        <input
+                type="text"
+                id="new-todo"
+                placeholder="Enter Todo">
+
+        <button onclick="addTodo()">
+            Add
+        </button>
+
+    </div>
+
+    <button
+            style="margin-top:20px;background:red;"
+            onclick="logout()">
+
+        Logout
+
+    </button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
