@@ -1,4 +1,5 @@
 const SERVER_URL = "https://jwtauth-17tj.onrender.com";
+// const SERVER_URL = "http://localhost:8080";
 
 /* ================= REGISTER ================= */
 
