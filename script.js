@@ -1,4 +1,4 @@
-const SERVER_URL = "http://localhost:8081";
+const SERVER_URL = "https://jwtauth-17tj.onrender.com";
 
 /* ================= REGISTER ================= */
 
